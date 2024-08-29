@@ -102,8 +102,9 @@ body {
 }
 
 .home-img img {
-    max-width: 450px;
-    margin-right: -20px;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
     opacity: 0;
     animation: zoomIn 1s ease forwards;
     animation-delay: 2s;
