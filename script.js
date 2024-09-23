@@ -12,3 +12,10 @@ const navbar = document.querySelector('.navbar');
 mobileMenu.addEventListener('click', () => {
     navbar.classList.toggle('active');
 });
+
+window.addEventListener('load', () => {
+    console.log('Page loaded');
+    if (preloader) {
+      preloader.remove();
+    }
+  });
